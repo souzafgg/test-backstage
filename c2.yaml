@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: compute-resources
+  description: Tracks all Compute CRDs in Kubernetes
+  annotations:
+  tags:
+    - compute
+    - kubernetes
+    - crossplane
+spec:
+  type: service
+  lifecycle: production
+  owner: platform-team
+  system: infrastructure
